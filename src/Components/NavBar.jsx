@@ -11,16 +11,16 @@ const NavBar = () => (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-            <Nav.Link href="#home" className='text-white'>Tv Shows</Nav.Link>
-            <Nav.Link href="#link" className='text-white'>Add New</Nav.Link>
+            <div href="#home" className='text-white mx-2'>Tv Shows</div>
+            <div href="#link" className='text-white'>Add New</div>
             </Nav>
             <Nav className="ml-auto">
-            <Nav.Link href="#home" ><a className="nav-link text-white" href="#">KIDS</a></Nav.Link>
-            <Nav.Link>
+            <div href="#home" ><a className="nav-link text-white" href="#">KIDS</a></div>
+            <div>
                 <a className="navbar-brand" href="#">
                 <img src="./assets/avatar.png" id="avatar" />
                 </a>
-            </Nav.Link>
+            </div>
 
             </Nav>
         </Navbar.Collapse>
